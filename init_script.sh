@@ -7,7 +7,7 @@ sudo apt-get install guake
 sudo apt-get install openssh-server
 sudo apt-get install git
 
-MY_SCRIPTS_PATH=~/myscripts
+MY_SCRIPTS_PATH=~/.myscripts
 mkdir $MY_SCRIPTS_PATH
 wget https://raw.githubusercontent.com/rupa/z/master/z.sh -P $MY_SCRIPTS_PATH
 chmod 775 $MY_SCRIPTS_PATH/z.sh
