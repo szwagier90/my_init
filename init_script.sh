@@ -21,6 +21,5 @@ git config --global user.name "Pawel Szwagierek"
 git config --global core.editor "vim"
 git config --global merge.tool meld
 cp meld_diff.py $MY_SCRIPTS_PATH
-git config --global diff.external $MY_SCRIPTS_PATH/meld_diff.py
 git config --global mergetool.keepBackup false
 
