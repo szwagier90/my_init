@@ -13,6 +13,7 @@ wget https://raw.githubusercontent.com/rupa/z/master/z.sh -P $MY_SCRIPTS_PATH
 chmod 775 $MY_SCRIPTS_PATH/z.sh
 echo -e "\n. $MY_SCRIPTS_PATH/z.sh" >> ~/.bashrc
 
+echo ":highlight Comment ctermfg=green" >> ~/.vimrc
 
 sudo apt-get install meld
 
