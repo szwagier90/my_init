@@ -2,10 +2,10 @@
 
 sudo apt-get update
 
-sudo apt-get install vim
-sudo apt-get install guake
-sudo apt-get install openssh-server
-sudo apt-get install git
+sudo apt-get install -y vim
+sudo apt-get install -y guake
+sudo apt-get install -y openssh-server
+sudo apt-get install -y git
 
 MY_SCRIPTS_PATH=~/.myscripts
 mkdir $MY_SCRIPTS_PATH
@@ -15,7 +15,7 @@ echo -e "\n. $MY_SCRIPTS_PATH/z.sh" >> ~/.bashrc
 
 echo ":highlight Comment ctermfg=green" >> ~/.vimrc
 
-sudo apt-get install meld
+sudo apt-get install -y meld
 
 git config --global user.email "szwagier90@gmail.com"
 git config --global user.name "Pawel Szwagierek"
