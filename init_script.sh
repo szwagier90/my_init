@@ -23,4 +23,4 @@ git config --global core.editor "vim"
 git config --global merge.tool meld
 cp meld_diff.py $MY_SCRIPTS_PATH
 git config --global mergetool.keepBackup false
-
+git config --global alias.tree "log --decorate --oneline --graph"
