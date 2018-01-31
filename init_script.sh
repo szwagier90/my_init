@@ -6,6 +6,7 @@ sudo apt-get install -y vim
 sudo apt-get install -y guake
 sudo apt-get install -y openssh-server
 sudo apt-get install -y git
+sudo apt-get install -y make
 
 MY_SCRIPTS_PATH=~/.myscripts
 mkdir $MY_SCRIPTS_PATH
