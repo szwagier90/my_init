@@ -8,6 +8,8 @@ sudo apt-get install -y openssh-server
 sudo apt-get install -y git
 sudo apt-get install -y make
 
+sudo apt-get install -y python-pip
+
 MY_SCRIPTS_PATH=~/.myscripts
 mkdir $MY_SCRIPTS_PATH
 wget https://raw.githubusercontent.com/rupa/z/master/z.sh -P $MY_SCRIPTS_PATH
