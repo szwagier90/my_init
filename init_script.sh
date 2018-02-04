@@ -9,6 +9,7 @@ sudo apt-get install -y git
 sudo apt-get install -y make
 
 sudo apt-get install -y python-pip
+pip install mock
 
 MY_SCRIPTS_PATH=~/.myscripts
 mkdir $MY_SCRIPTS_PATH
